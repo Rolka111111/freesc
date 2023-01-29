@@ -11,7 +11,7 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
-IZIN=$( curl https://raw.githubusercontent.com/senowahyu62/freesc/main/ipvps | grep $MYIP )
+IZIN=$( curl https://raw.githubusercontent.com/Rolka111111/freesc/main/ipvps | grep $MYIP )
 if [ $MYIP = $MYIP ]; then
 echo -e "${green}Permission Accepted...${NC}"
 else
