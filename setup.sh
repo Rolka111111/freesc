@@ -130,5 +130,5 @@ echo ""
 echo " Reboot 10 Sec"
 sleep 10
 rm -f setup.sh
-reboot
+# reboot
 
